@@ -1,3 +1,4 @@
+using ModeloUsuario;
 namespace AppLogin
 {
     public partial class Form1 : Form
