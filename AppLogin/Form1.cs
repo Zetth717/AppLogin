@@ -11,7 +11,7 @@ namespace AppLogin
         private void button1_Click(object sender, EventArgs e)
         {
             // Crear una instancia de la clase Usuario
-            Usuario usuario = new Usuario(txtUsuario.Text, txtContrasena.Text, 1);
+            Usuario usuario = new Usuario(txtUsuario.Text, txtContrasena.Text, 0);
 
             // Verificar credenciales
             if (usuario.VerificarUsuario(txtUsuario.Text, txtContrasena.Text))
